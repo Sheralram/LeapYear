@@ -12,7 +12,7 @@ public class Leapyear
         Scanner scanner= new Scanner(System.in);
         System.out.println("Enter Year ");
         int num = scanner.nextInt();
-        Utilityleapyear utility = new Utilityleapyear();
-        utility.leap(num);
+        Utilityleapyear utility = new Utilityleapyear(); // Object Initialisation
+        utility.leap(num); // calling method
     }
 }

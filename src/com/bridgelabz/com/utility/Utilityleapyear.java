@@ -4,14 +4,13 @@ import com.bridgelabz.Leapyear;
 
 import java.util.Scanner;
 
-public class Utilityleapyear extends Leapyear
+public class Utilityleapyear
 {
     public void leap(int num)
     {
-        if (num > 999 && num < 10000)
+        if (num > 999 && num < 10000) // check 4 digit number
         {
-            if (((num % 4 == 0) && (num % 100!= 0)) || (num % 400 == 0))
-           // if (((year % 4 == 0) && (year % 100!= 0)) || (year%400 == 0))
+            if (((num % 4 == 0) && (num % 100!= 0)) || (num % 400 == 0)) // conditions for leap year
             {
                 System.out.println(num + "is a Leap year");
             } else
